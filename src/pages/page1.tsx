@@ -18,7 +18,7 @@ const Box = () => {
 };
 
 const Sphere = () => {
-  const colorMap = useLoader(THREE.TextureLoader, '/images/stars.jpg');
+  const colorMap = useLoader(THREE.TextureLoader, '/images/earth.jpg');
 
   return (
     <mesh castShadow position={[0, 2, 0]}>
